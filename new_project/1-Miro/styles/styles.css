@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+}
+
+#heroButton {
+  background-color: #4262FF;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-weight: 440px;
+  font-size: 10px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 32px;
+}
+
+nav {
+  padding: 33px 50px;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 60px;
+}
+
+nav ul {
+  list-style: none ;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin: 0 0 17px 0;
+}
+
+h1, h2 {
+  font-weight: 400px;
+  font-size: 48px;
+  line-height: 56px;
+  color: #050038;
+}
+
+.sectionlist {
+  list-style: none;
+  /* list-style: url(/1-Miro/images/check.svg); */
+}
+
+.sectionlist li::before {
+  content: url(/1-Miro/images/check.svg);
+}
+
+.experiment {
+  background: #4262FF;
+  width: 400px;
+  height: 400px;
+  color: white;
+  padding: 55px 0px 0px 100px;
+  margin: 10px auto;
+  /* background: red; */
+}
+
+.head {
+  width: 1200;
+  height: 91;
+}
+
+header a {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #050038;
+  text-decoration: none;
+}
+
+/* .par1 {
+  width: 285;
+  height: 168;
+  top: 60px;
+  left: 40px;
+  
+} */
+
+.herotext {
+  margin: 0 0 55px 0;
+  color: #050038;
+}
+
+.heroform + p {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 20px;
+  color:#050038;
+}
+
+.heroform input:focus {
+  background-color: aliceblue;
+}
+
+.heroform input {
+  border-radius: 32px;
+}
